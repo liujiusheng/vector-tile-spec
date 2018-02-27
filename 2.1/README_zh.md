@@ -224,7 +224,10 @@ Each `ExteriorRing` and `InteriorRing` MUST consist of the following sequence:
 表示它只需要一条指令：
 
 * MoveTo(+25, +17)
-
+以此公式编码：ParameterInteger = (value << 1) ^ (value >> 31)
+所以：
+(25 << 1) ^ (25 >> 31) = 50
+(17 << 1) ^ (17 >> 31) = 34
 ```bash
 编码      : [ 9 50 34 ]
               | |  `> 解码: ((34 >> 1) ^ (-(34 & 1))) = +17
