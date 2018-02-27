@@ -99,7 +99,7 @@ count = CommandInteger >> 3
 | ClosePath    | `7`  | 无参数        | 0               |
 
 ##### 指令数示例
-下表的CommandInteger这个值通过后面这个二进制转换为十进制得到
+<font style="color:red;">下表的CommandInteger这个值通过后面这个二进制转换为十进制得到</font>
 
 | 指令      |  ID  | Count | CommandInteger | 二进制表示`[Count][Id]`                  |
 | --------- |:----:|:-----:|:--------------:|:----------------------------------------:|
