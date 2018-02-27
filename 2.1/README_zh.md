@@ -228,7 +228,9 @@ Each `ExteriorRing` and `InteriorRing` MUST consist of the following sequence:
 以此公式编码：ParameterInteger = (value << 1) ^ (value >> 31)
 
 所以：
+
 (25 << 1) ^ (25 >> 31) = 50
+
 (17 << 1) ^ (17 >> 31) = 34
 
 ```bash
