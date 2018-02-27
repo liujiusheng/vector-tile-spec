@@ -450,9 +450,9 @@ layers {
     tags: 2
     tags: 1
     type: Point
-    geometry: 9
-    geometry: 2410
-    geometry: 3080
+    geometry: 9（编码的第一个值，moveTo的类型编号和命令个数二进制组合的那个值）
+    geometry: 2410（编码的第二个值，moveTo的第一个参数）
+    geometry: 3080（编码的第三个值，moveTo的第二个参数）
   }
   features {
     id: 2
